@@ -20,6 +20,7 @@ public class Generator_UI extends JFrame implements ActionListener {
     private static final JLabel passwordLabel = new JLabel("Password: ");
     private static final JButton copyButton = new JButton("Copy to Clipboard");
 
+    //TODO: Change the font to a nicer one and colors
     public Generator_UI() {
         //setting up frame
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

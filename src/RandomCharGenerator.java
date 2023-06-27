@@ -27,7 +27,7 @@ public class RandomCharGenerator {
         return array;
     }
 
-    //use predefined set of special chars instead
+    //TODO: use predefined set of special chars instead
     public char[] generateSpecial(char[] array){
         Random generator = new Random();
         for (int i = 0; i < array.length; i++) {
